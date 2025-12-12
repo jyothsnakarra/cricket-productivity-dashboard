@@ -248,7 +248,7 @@ Kiro ensured the final codebase is streamlined and maintainable:
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/jyothsnakarra/cricket-productivity-dashboard.git
    cd cricket-dashboard-enhancement
    ```
 
@@ -850,5 +850,6 @@ The dashboard can be deployed on:
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-repo/cricket-dashboard)
 
 **🎉 Happy Cricket Analytics! 🏏📊**
+
 
 *Discover the hidden patterns where sports passion meets professional productivity*
