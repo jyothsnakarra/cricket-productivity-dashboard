@@ -526,39 +526,6 @@ class CricketDashboard:
 - **Escape**: Clear current selection or close modals
 - **Arrow Keys**: Navigate through chart data points
 
-## 🤝 Contributing
-
-We welcome contributions to enhance the cricket analytics platform:
-
-### Development Workflow
-1. **Spec-First Development**: All features start with clear specifications in `.kiro/specs/`
-2. **Property-Based Testing**: Use Hypothesis for comprehensive correctness validation
-3. **Code Quality**: Automated quality checks via Kiro hooks
-4. **Documentation**: Update README and technical docs for new features
-
-### Contribution Areas
-- **New Visualizations**: Additional chart types and analysis methods
-- **Data Sources**: Support for different cricket data formats
-- **Performance**: Optimization for large datasets
-- **Mobile Experience**: Enhanced mobile interface
-- **Accessibility**: Improved screen reader and keyboard support
-
-### Getting Started with Development
-```bash
-# Fork the repository
-git clone <your-fork-url>
-cd cricket-dashboard-enhancement
-
-# Install development dependencies
-pip install -r requirements.txt
-
-# Run tests
-python -m pytest tests/
-
-# Start development server
-streamlit run src/app.py
-```
-
 ## 📊 Data Sources & Analysis
 
 ### Cricket Data Format
@@ -789,7 +756,6 @@ The dashboard can be deployed on:
 
 ### **Project Governance**
 - **📄 License**: Open source under [MIT License](LICENSE) - encouraging innovation and collaboration
-- **🤝 Contributing**: Welcoming contributions from developers, data scientists, and cricket enthusiasts
 - **📞 Support**: Active community support through GitHub Issues and Discussions
 - **🔄 Maintenance**: Ongoing updates and enhancements based on user feedback and new cricket data
 
@@ -835,7 +801,6 @@ The dashboard can be deployed on:
 - **💬 Discussions**: [Join community discussions](https://github.com/your-repo/discussions) and share insights
 - **📚 Documentation**: Comprehensive technical docs available in `.kiro/specs/`
 - **🔔 Updates**: [Follow the repository](https://github.com/your-repo) for latest enhancements and features
-- **🤝 Contributing**: [Contribution guidelines](CONTRIBUTING.md) for developers and researchers
 
 ### **🌐 Connect With Us**
 - **📧 Email**: cricket-analytics@yourproject.com
@@ -853,3 +818,4 @@ The dashboard can be deployed on:
 
 
 *Discover the hidden patterns where sports passion meets professional productivity*
+
