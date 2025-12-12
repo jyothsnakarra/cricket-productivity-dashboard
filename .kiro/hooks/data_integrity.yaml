@@ -1,0 +1,10 @@
+# Kiro Hook: Sanity Check
+# What it does: Whenever I save the analysis script, it checks if the data is empty.
+name: "Data Guard"
+trigger:
+  event: "file_save"
+  pattern: "src/analysis.py"
+action:
+  command: "python tests/check_data_quality.py"
+  on_success: "echo '✅ Data Correlation looks valid!'"
+  on_failure: "echo '❌ Correlation failed. Check timestamps.'"

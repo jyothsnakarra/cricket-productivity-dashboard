@@ -1,0 +1,9 @@
+# Kiro Hook: Plot Generator
+# What it does: Automatically regenerates dashboard when data changes
+name: "Dashboard Refresher"
+trigger:
+  event: "file_save"
+  pattern: "src/data/dashboard_ready.csv"
+action:
+  command: "echo '📊 Dashboard data updated! Restart Streamlit to see changes.'"
+  on_success: "echo '✅ Ready to view updated dashboard!'"

@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables (SECRETS - NEVER COMMIT)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Data Files (Too large for git and may contain sensitive info)
+src/data/*.json
+src/data/*.csv
+src/data/*.parquet
+src/data/*.xlsx
+src/data/*.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Kiro temporary files (keep .kiro directory but exclude temp files)
+.kiro/tmp/
+.kiro/cache/
+.kiro/logs/
+
+# Keep these important files (explicitly not ignored)
+# .kiro/ - Agent hooks and configuration (INCLUDED)
+# requirements.txt - Dependencies (INCLUDED)
+# README.md - Documentation (INCLUDED)
+# specs/ - Specifications (INCLUDED)

@@ -1,0 +1,6 @@
+name: "Secret Guardian"
+trigger:
+  event: "pre_commit"  # Conceptually runs before you push
+action:
+  command: "grep -r 'GITHUB_TOKEN' src/ || echo 'Clean'"
+  on_failure: "echo '⚠️ WARNING: You hardcoded the token in the code! Use .env instead!'"

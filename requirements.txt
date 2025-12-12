@@ -1,0 +1,13 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.15.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data processing
+scipy>=1.11.0
+
+# Optional: for better performance
+pyarrow>=12.0.0
