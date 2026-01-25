@@ -2,11 +2,6 @@
 
 > *"Production deployments stop when Kohli is batting"* - Every Indian Engineering Manager, probably
 
-[![Built with Kiro](https://img.shields.io/badge/Built%20with-Kiro%20Agentic%20IDE-blue?style=for-the-badge&logo=robot)](https://kiro.ai)
-[![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-
 ## 🎯 The Vision
 
 Welcome to the **most comprehensive cricket analytics platform** that proves what we've all suspected: **cricket matches have a measurable impact on global developer productivity**. This enhanced dashboard transforms raw cricket data into stunning visualizations and deep insights that every cricket fan and developer will love.
@@ -14,12 +9,6 @@ Welcome to the **most comprehensive cricket analytics platform** that proves wha
 **The Big Question**: When Virat Kohli gets out, do GitHub commits drop by 40%? When India wins the T20 World Cup, does the commit graph look like a flatline? Our advanced analytics engine provides the answers with beautiful, interactive visualizations.
 
 ## 🌟 Project Impact & Significance
-
-### 🎯 **Real-World Impact**
-- **Developer Productivity Research**: First-of-its-kind analysis correlating cricket events with global developer activity
-- **Data-Driven Insights**: Quantified impact of cricket matches on productivity patterns across different time zones
-- **Cultural Understanding**: Bridges the gap between sports passion and professional productivity in cricket-loving regions
-- **Open Source Contribution**: Provides a reusable framework for sports analytics and productivity correlation studies
 
 ### 📊 **Key Findings & Analytics**
 - **Wicket Impact Analysis**: Average 15-25% productivity drop during key wicket moments
@@ -77,22 +66,6 @@ Welcome to the **most comprehensive cricket analytics platform** that proves wha
 - **📈 Live Updates**: Charts update in real-time as filters are applied
 - **💾 Export Capabilities**: Save charts as images and export data as CSV for further analysis
 
-### 🔧 **Advanced Technical Features**
-
-#### **Performance & Scalability**
-- **⚡ Sub-second Loading**: Optimized data processing with intelligent caching strategies
-- **💾 Memory Management**: Efficient handling of large datasets with automatic cleanup
-- **🔄 Lazy Loading**: On-demand data loading for improved startup performance
-- **📊 Progress Tracking**: Real-time progress indicators with cricket-themed animations
-- **🧹 Automatic Optimization**: Self-optimizing performance based on usage patterns
-
-#### **Data Processing Excellence**
-- **🔍 Intelligent Discovery**: Automatic JSON file scanning with metadata extraction
-- **🏗️ Data Standardization**: Team name normalization and consistent match formatting
-- **📊 Statistical Analysis**: Advanced analytics with correlation coefficients and trend analysis
-- **🎯 Error Handling**: Comprehensive error handling with user-friendly notifications and retry mechanisms
-- **💾 Smart Caching**: Multi-level caching with automatic invalidation and refresh strategies
-- 
 ## 🛠️ Technology Stack & Architecture
 
 ### **Core Technologies**
@@ -275,18 +248,12 @@ src/data/
 └── ...                  # Any number of JSON files
 ```
 
-#### Performance Optimization
-- **Caching**: Processed data is automatically cached in `src/cache/`
-- **Memory Management**: Large datasets are processed efficiently
-- **Lazy Loading**: Data loads on-demand for better performance
-
 ## 📸 Dashboard Features & Screenshots
 <img width="1000" height="502" alt="image" src="https://github.com/user-attachments/assets/e6088774-264d-446c-ad02-419722b28503" />
 
 <img width="1000" height="483" alt="image" src="https://github.com/user-attachments/assets/3d0d0406-f40b-483f-b290-2f4ebddbb83c" />
 
 <img width="1000" height="502" alt="image" src="https://github.com/user-attachments/assets/d4387edc-d51d-4462-b6d0-7fc5bd85e140" />
-
 
 ### 🏏 Main Dashboard
 The enhanced dashboard provides a comprehensive cricket analytics experience:
@@ -295,33 +262,6 @@ The enhanced dashboard provides a comprehensive cricket analytics experience:
 - **Live Match Selection**: Intelligent dropdown with search and filtering
 - **Real-time Metrics**: Animated cards showing balls, wickets, runs, and impact
 - **Interactive Charts**: Multiple visualization tabs for different analysis types
-
-### 🎯 Key Features Showcase
-
-#### Intelligent Match Selector
-- **Advanced Search**: Search by team names, venues, events, or match types
-- **Smart Filtering**: Filter by significance, match type, venue, and date ranges
-- **Match Cards**: Beautiful cards showing match details with significance indicators
-- **Highlighted Results**: Search terms are highlighted in results
-
-#### Interactive Visualizations
-- **Cricket Analysis Tab**: Match timeline with runs per over and wicket markers
-- **Developer Activity Tab**: GitHub commit patterns with impact zones
-- **Correlation Study Tab**: Wicket impact analysis and productivity correlation
-- **Match Timeline Tab**: Enhanced timeline with momentum indicators
-- **Wicket Impact Tab**: Detailed wicket analysis with dismissal breakdowns
-
-#### Comprehensive Match Details
-- **Match Information Panel**: Teams, venue, date, event, and outcome details
-- **Innings Breakdown**: Wicket counts and statistics by innings
-- **Wicket Timeline**: Chronological wicket analysis with detailed commentary
-- **Performance Metrics**: Batting and bowling statistics with comparisons
-
-#### Advanced Analytics
-- **Real-time Filtering**: Time range, innings, and activity level filters
-- **Dynamic Insights**: Key moments analysis with impact scoring
-- **Data Explorer**: Advanced data table with column selection and CSV export
-- **Performance Dashboard**: Strike rates, economy rates, and partnership analysis
 
 ## 🏗️ Project Architecture & Technical Excellence
 
@@ -566,7 +506,7 @@ The dashboard supports cricket match data in JSON format, particularly:
 
 **🎯 Conclusion**: Our analysis provides compelling evidence that cricket events have a measurable, statistically significant impact on developer productivity patterns, with the strength of correlation varying predictably based on cultural, temporal, and competitive factors.
 
-## � Techunical Details
+## � Technical Details
 
 ### Performance Characteristics
 - **Processing Speed**: Handles 3000+ match files in under 30 seconds
@@ -592,20 +532,6 @@ The dashboard supports cricket match data in JSON format, particularly:
 - **Optional GitHub Integration**: GitHub token is optional and stored locally
 - **Secure Processing**: No sensitive data transmitted over network
 
-
-#### **Code Quality & Performance**
-- **� Lines ofc Code**: 3,500+ lines of production-ready Python code
-- **🧪 Test Coverage**: 90%+ code coverage with property-based testing
-- **⚡ Performance**: Sub-second loading for 1000+ match files
-- **🐛 Bug Rate**: Zero critical bugs in production deployment
-- **📈 User Experience**: 95%+ positive feedback on interface and functionality
-
-### **Version History & Milestones**
-- **🚀 v2.0.0**: Enhanced multi-match analytics with advanced visualizations and correlation analysis
-- **⚡ v1.5.0**: Intelligent match discovery, caching system, and performance optimization
-- **🎯 v1.0.0**: Initial release with basic cricket-productivity correlation and interactive dashboard
-- **🔮 Future**: Planned features include machine learning predictions and expanded sports coverage
-
 ### **🌟 Vision Statement**
 *"To bridge the gap between sports passion and professional productivity through data-driven insights, creating a deeper understanding of how cultural events shape our digital work patterns."*
 
@@ -622,5 +548,6 @@ The dashboard supports cricket match data in JSON format, particularly:
 *Built with ❤️ and Kiro's Agentic IDE | Transforming cricket passion into actionable data insights*
 
 **🎉 Happy Cricket Analytics! 🏏📊**
+
 
 
