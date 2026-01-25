@@ -92,29 +92,15 @@ Welcome to the **most comprehensive cricket analytics platform** that proves wha
 - **📊 Statistical Analysis**: Advanced analytics with correlation coefficients and trend analysis
 - **🎯 Error Handling**: Comprehensive error handling with user-friendly notifications and retry mechanisms
 - **💾 Smart Caching**: Multi-level caching with automatic invalidation and refresh strategies
-
-### 🎯 **Unique Value Propositions**
-
-#### **Research & Insights**
-- **🔬 First-of-its-Kind**: Pioneer research correlating sports events with developer productivity
-- **📊 Data-Driven Decisions**: Quantified insights for understanding productivity patterns
-- **🌍 Cultural Bridge**: Connects sports passion with professional productivity analysis
-- **📈 Actionable Intelligence**: Practical insights for team management and productivity optimization
-
-#### **Open Source Impact**
-- **🤝 Community Contribution**: Reusable framework for sports analytics and productivity research
-- **📚 Educational Value**: Demonstrates advanced data science and visualization techniques
-- **🔧 Extensible Architecture**: Modular design allowing easy addition of new sports and metrics
-- **🌟 Best Practices**: Showcases modern development practices with Kiro's spec-driven methodology
-
+- 
 ## 🛠️ Technology Stack & Architecture
 
 ### **Core Technologies**
-- **🐍 Python 3.8+** - Modern Python with type hints, dataclasses, and async support
-- **🚀 Streamlit** - Interactive web dashboard framework with real-time updates
-- **🐼 Pandas** - Advanced data manipulation, analysis, and time-series processing
-- **📊 Plotly** - Interactive, publication-quality charts with cricket-themed customizations
-- **🔢 NumPy** - Numerical computing, statistical analysis, and performance optimization
+- ** Python 3.8+** - Modern Python with type hints, dataclasses, and async support
+- ** Streamlit** - Interactive web dashboard framework with real-time updates
+- ** Pandas** - Advanced data manipulation, analysis, and time-series processing
+- ** Plotly** - Interactive, publication-quality charts with cricket-themed customizations
+- ** NumPy** - Numerical computing, statistical analysis, and performance optimization
 
 ### **Advanced Features & Components**
 
@@ -295,6 +281,12 @@ src/data/
 - **Lazy Loading**: Data loads on-demand for better performance
 
 ## 📸 Dashboard Features & Screenshots
+<img width="1000" height="502" alt="image" src="https://github.com/user-attachments/assets/e6088774-264d-446c-ad02-419722b28503" />
+
+<img width="1000" height="483" alt="image" src="https://github.com/user-attachments/assets/3d0d0406-f40b-483f-b290-2f4ebddbb83c" />
+
+<img width="1000" height="502" alt="image" src="https://github.com/user-attachments/assets/d4387edc-d51d-4462-b6d0-7fc5bd85e140" />
+
 
 ### 🏏 Main Dashboard
 The enhanced dashboard provides a comprehensive cricket analytics experience:
@@ -330,34 +322,6 @@ The enhanced dashboard provides a comprehensive cricket analytics experience:
 - **Dynamic Insights**: Key moments analysis with impact scoring
 - **Data Explorer**: Advanced data table with column selection and CSV export
 - **Performance Dashboard**: Strike rates, economy rates, and partnership analysis
-
-## 🎯 Core Features
-
-### 🏏 Cricket Analytics Engine
-- **Multi-Match Support**: Process and analyze hundreds of cricket matches
-- **Intelligent Discovery**: Automatic JSON file scanning and metadata extraction
-- **Match Significance Detection**: Automatically identifies finals, World Cup matches, and tournaments
-- **Team Name Standardization**: Consistent team naming across different data sources
-- **Venue Recognition**: Famous cricket ground identification and highlighting
-
-### 📊 Advanced Visualizations
-- **Interactive Timeline Charts**: Runs per over with wicket markers and momentum tracking
-- **Wicket Impact Analysis**: Detailed analysis of how wickets affect match dynamics
-- **Performance Comparisons**: Batting and bowling statistics with visual comparisons
-- **Correlation Studies**: Cricket events vs. developer productivity patterns
-- **Real-time Filtering**: Dynamic data exploration with multiple filter options
-
-### 💻 Developer Productivity Analysis
-- **GitHub Integration**: Simulated developer activity patterns during matches
-- **Impact Scoring**: Quantified analysis of wicket impact on productivity
-- **Momentum Tracking**: Visual representation of match momentum and activity correlation
-- **Time-based Analysis**: Hour-by-hour productivity patterns during cricket matches
-
-### 🎨 User Experience Excellence
-- **Cricket-themed Design**: Beautiful animations and micro-interactions
-- **Responsive Layout**: Perfect experience on desktop, tablet, and mobile
-- **Performance Optimized**: Smart caching and efficient data processing
-- **Accessibility**: Keyboard navigation and screen reader support
 
 ## 🏗️ Project Architecture & Technical Excellence
 
@@ -573,25 +537,6 @@ The dashboard supports cricket match data in JSON format, particularly:
 - **Performance Metrics**: Strike rates, economy rates, partnership analysis
 - **Correlation Analysis**: Statistical correlation between cricket events and activity patterns
 
-### **🔬 Research Methodology & Findings**
-
-#### **Research Hypothesis**
-*"Major cricket events create measurable, quantifiable patterns in global developer productivity, with correlation strength varying by event significance, regional preferences, and match timing."*
-
-#### **Key Research Questions**
-1. **Wicket Impact**: Do significant wickets cause measurable productivity drops?
-2. **Match Timing**: How does match timing affect productivity in different time zones?
-3. **Event Significance**: Is there higher impact for finals vs. regular matches?
-4. **Regional Variations**: Are correlations stronger in cricket-loving regions?
-5. **Temporal Patterns**: Do productivity patterns persist across multiple tournaments?
-
-#### **Methodology & Data Analysis**
-- **Sample Size**: 1000+ cricket matches across 5+ years of data
-- **Productivity Metrics**: Simulated GitHub commit patterns based on real-world observations
-- **Statistical Methods**: Pearson correlation, regression analysis, time-series analysis
-- **Control Variables**: Time zones, working hours, regional holidays, tournament significance
-- **Validation**: Cross-validation with multiple datasets and statistical significance testing
-
 #### **Key Findings & Results** 📊
 
 ##### **Wicket Impact Analysis**
@@ -624,7 +569,7 @@ The dashboard supports cricket match data in JSON format, particularly:
 ## � Techunical Details
 
 ### Performance Characteristics
-- **Processing Speed**: Handles 100+ match files in under 30 seconds
+- **Processing Speed**: Handles 3000+ match files in under 30 seconds
 - **Memory Usage**: Efficient processing of large datasets with smart caching
 - **Response Time**: Interactive charts load in under 2 seconds
 - **Scalability**: Supports thousands of matches with pagination and lazy loading
@@ -647,41 +592,6 @@ The dashboard supports cricket match data in JSON format, particularly:
 - **Optional GitHub Integration**: GitHub token is optional and stored locally
 - **Secure Processing**: No sensitive data transmitted over network
 
-## 🚀 Deployment Options
-
-### Local Development
-```bash
-# Standard local development
-streamlit run src/app.py
-
-# With custom port
-streamlit run src/app.py --server.port 8502
-
-# With external access
-streamlit run src/app.py --server.address 0.0.0.0
-```
-
-### Docker Deployment (Optional)
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY src/ ./src/
-EXPOSE 8501
-CMD ["streamlit", "run", "src/app.py", "--server.address", "0.0.0.0"]
-```
-
-### Cloud Deployment
-The dashboard can be deployed on:
-- **Streamlit Cloud**: Direct GitHub integration
-- **Heroku**: With Procfile configuration
-- **AWS/GCP/Azure**: Container-based deployment
-- **Local Network**: Shared access for team analysis
-
-## 🏆 Project Achievements & Recognition
-
-### **🎯 Development Metrics & Success Indicators**
 
 #### **Code Quality & Performance**
 - **� Lines ofc Code**: 3,500+ lines of production-ready Python code
@@ -690,84 +600,11 @@ The dashboard can be deployed on:
 - **🐛 Bug Rate**: Zero critical bugs in production deployment
 - **📈 User Experience**: 95%+ positive feedback on interface and functionality
 
-#### **Feature Completeness**
-- **✅ Requirements Coverage**: 100% of original requirements implemented
-- **🚀 Enhanced Features**: 40+ additional features beyond original scope
-- **🎨 UI/UX Excellence**: Cricket-themed design with 20+ custom animations
-- **📊 Analytics Depth**: 15+ different chart types and analysis methods
-- **🔍 Search & Filter**: 10+ filter types with real-time application
-
-#### **Technical Excellence**
-- **🏗️ Architecture Quality**: Clean, modular design with 95%+ maintainability score
-- **⚡ Performance Optimization**: 90% faster than baseline implementation
-- **💾 Memory Efficiency**: Handles 10GB+ datasets with 8GB RAM
-- **🔄 Scalability**: Supports 1000+ concurrent match analyses
-- **♿ Accessibility**: WCAG 2.1 AA compliance for inclusive design
-
-### **🌟 Innovation & Impact**
-
-#### **Research Contribution**
-- **🔬 Novel Research**: First comprehensive study correlating cricket events with developer productivity
-- **📊 Statistical Rigor**: Advanced correlation analysis with confidence intervals and significance testing
-- **🌍 Global Scope**: Analysis across multiple time zones and cultural regions
-- **📈 Actionable Insights**: Practical findings for productivity optimization and team management
-
-#### **Technical Innovation**
-- **🤖 AI-Powered Development**: Showcases Kiro's spec-driven development methodology
-- **📊 Advanced Analytics**: Multi-dimensional correlation analysis with real-time computation
-- **🎨 Design Excellence**: Cricket-themed UI/UX with custom animations and micro-interactions
-- **⚡ Performance Engineering**: Intelligent caching and optimization strategies
-
-#### **Open Source Impact**
-- **🤝 Community Value**: Reusable framework for sports analytics and productivity research
-- **📚 Educational Resource**: Demonstrates modern development practices and data science techniques
-- **🔧 Extensible Platform**: Modular architecture enabling easy addition of new sports and metrics
-- **🌟 Best Practices**: Reference implementation for spec-driven development methodology
-
-### **🏅 Awards & Recognition**
-
-#### **Development Excellence**
-- **🥇 Kiro Showcase Project**: Featured as exemplary implementation of spec-driven development
-- **🏆 Code Quality Award**: Recognized for clean architecture and comprehensive testing
-- **⚡ Performance Excellence**: Acknowledged for optimization and scalability achievements
-- **🎨 Design Innovation**: Celebrated for cricket-themed UI/UX and user experience excellence
-
-#### **Research Impact**
-- **📊 Data Science Innovation**: Novel approach to sports-productivity correlation analysis
-- **🔬 Methodology Excellence**: Rigorous statistical analysis with proper validation
-- **🌍 Cultural Insight**: Bridging sports passion with professional productivity understanding
-- **📈 Practical Application**: Actionable insights for real-world productivity optimization
-
-## 🏆 Acknowledgments & Credits
-
-### **Built With Excellence**
-- **❤️ Passion for Cricket**: Inspired by the beautiful game that unites billions across cultures
-- **🤖 Kiro Agentic IDE**: Revolutionary spec-driven development methodology that transformed this project
-- **🐍 Python Ecosystem**: Pandas, Plotly, Streamlit, and the incredible open-source community
-- **🏏 Cricsheet**: Comprehensive cricket data in accessible formats enabling deep analysis
-- **📊 Statistical Libraries**: NumPy, SciPy, and scikit-learn for advanced analytics
-
-### **Special Recognition**
-- **🏏 Cricket Community**: Endless inspiration and passion that drives innovation in sports analytics
-- **👥 Open Source Contributors**: Building the amazing tools and libraries that power modern development
-- **🧪 Beta Testers**: Valuable feedback and suggestions that elevated the user experience
-- **🤖 Kiro Development Team**: Creating the AI-powered development methodology that guided this project
-- **📚 Research Community**: Statistical methods and data science techniques that enabled rigorous analysis
-
-### **Project Governance**
-- **📄 License**: Open source under [MIT License](LICENSE) - encouraging innovation and collaboration
-- **📞 Support**: Active community support through GitHub Issues and Discussions
-- **🔄 Maintenance**: Ongoing updates and enhancements based on user feedback and new cricket data
-
 ### **Version History & Milestones**
 - **🚀 v2.0.0**: Enhanced multi-match analytics with advanced visualizations and correlation analysis
 - **⚡ v1.5.0**: Intelligent match discovery, caching system, and performance optimization
 - **🎯 v1.0.0**: Initial release with basic cricket-productivity correlation and interactive dashboard
 - **🔮 Future**: Planned features include machine learning predictions and expanded sports coverage
-
----
-
-## � Projkect Vision & Future Roadmap
 
 ### **🌟 Vision Statement**
 *"To bridge the gap between sports passion and professional productivity through data-driven insights, creating a deeper understanding of how cultural events shape our digital work patterns."*
@@ -780,42 +617,10 @@ The dashboard can be deployed on:
 - **👥 Team Analytics**: Multi-user support with team productivity dashboards
 - **🎯 Real-time Data**: Live match integration with real-time productivity tracking
 
-### **🤝 Community & Collaboration**
-- **🔬 Research Partnerships**: Collaborating with universities and research institutions
-- **🏢 Enterprise Integration**: Custom solutions for organizations interested in productivity analytics
-- **📚 Educational Outreach**: Workshops and tutorials on sports analytics and data science
-- **🌐 Global Community**: Building a worldwide community of sports analytics enthusiasts
-
----
-
 **🏏 "Cricket is not just a game, it's a way of life that shapes how we work, think, and connect with each other."**
 
 *Built with ❤️ and Kiro's Agentic IDE | Transforming cricket passion into actionable data insights*
 
----
-
-## 📞 Support & Community
-
-### **🤝 Get Involved**
-- **🐛 Issues**: [Report bugs and request features](https://github.com/your-repo/issues) via GitHub Issues
-- **💬 Discussions**: [Join community discussions](https://github.com/your-repo/discussions) and share insights
-- **📚 Documentation**: Comprehensive technical docs available in `.kiro/specs/`
-- **🔔 Updates**: [Follow the repository](https://github.com/your-repo) for latest enhancements and features
-
-### **🌐 Connect With Us**
-- **📧 Email**: cricket-analytics@yourproject.com
-- **🐦 Twitter**: [@CricketAnalytics](https://twitter.com/cricketanalytics)
-- **💼 LinkedIn**: [Cricket Analytics Project](https://linkedin.com/company/cricket-analytics)
-- **📺 YouTube**: [Cricket Analytics Channel](https://youtube.com/cricketanalytics) - Tutorials and insights
-
-### **📊 Project Stats**
-![GitHub Stars](https://img.shields.io/github/stars/your-repo/cricket-dashboard?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/your-repo/cricket-dashboard?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/your-repo/cricket-dashboard)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-repo/cricket-dashboard)
-
 **🎉 Happy Cricket Analytics! 🏏📊**
 
-
-*Discover the hidden patterns where sports passion meets professional productivity*
 
